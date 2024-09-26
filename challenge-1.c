@@ -7,7 +7,8 @@ int main()
     char prenom[10];
     char age[3];
     char sexe[10];
-    char email[90];
+    char email[90]
+    ;
 
          printf("entrer le nom \n");
             scanf("%s",&nome);

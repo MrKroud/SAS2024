@@ -12,7 +12,9 @@ scanf("%d",&v2);
 if (v1==v2)
 {
     v3=(v1+v2)*3;
-}else{
+}
+   else
+{
     
     v3=v1+v2;
 }
