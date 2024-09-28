@@ -3,25 +3,21 @@
 int main(){
 
 int n;
+int i=2;
     do
 {
      printf("entrer un nombre : \n");
      scanf("%d", &n);
-    
-    
-        int i=1;
-
-        if ( n % i== 0 )
+        
+        if ( n % i == 0 && n!=i) 
         {
           printf("ce nest pas un nomber premie\n");
         }
-        continue;
-            
-        if ( n % i == n) 
+        
+        else
 
           printf("cest un nomber premier\n");
-    
-    
+        i++;
  }
     while(n != 99);
 

@@ -16,7 +16,6 @@ if (Y>=18)
 else  
 
     printf("vous netes pas eligible pour voter");
-
 }
    while( Y != 99);
 
