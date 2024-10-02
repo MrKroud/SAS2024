@@ -1,25 +1,32 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <math.h>
 int main(){
 
-int n;
-int i=2;
+int n ,i;
+
+
+
     do
 {
+
+
      printf("entrer un nombre : \n");
      scanf("%d", &n);
-        
-        if ( n % i == 0 && n!=i) 
-        {
-          printf("ce nest pas un nomber premie\n");
-        }
-        
-        else
+for ( i = 2 ; i < n ; i++)
+{
+  if ( n % i != 0)
+  {
+    printf("cest un nomber premier");
+  }
 
-          printf("cest un nomber premier\n");
-        i++;
- }
-    while(n != 99);
+}
+printf("ce nest pas un nomber premier");
+        return 0;
+    
+ 
+ 
+ } while(n != 99);
 
 
 

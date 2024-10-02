@@ -6,6 +6,8 @@ char C;
 printf("entrer un caractere");
 scanf("%s",&C);
 
+do
+{
 
 switch (C)
 {
@@ -29,10 +31,13 @@ case 'y':
     break;    
 
 default:
-   printf(" ent un letre");
+   printf(" ent un letre\n");
    
     break;
 }
+scanf("%s",&C);
+
+}while (C != 99);
 
 
 

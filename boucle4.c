@@ -4,7 +4,7 @@
 
 int main(){
     int num;
-
+do{
     printf("entrer un nombre : ");
     scanf("%d", &num);
     
@@ -23,4 +23,5 @@ int main(){
 
     return 0;
 
-}       
+}while(num!=99)  ;
+}
